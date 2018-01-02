@@ -11,17 +11,21 @@ Python 버전 : 3
 
 * Tile Dir : 별도의 GIS 도구를 사용하여 생성한 Tile 이미지가 저장된 디렉터리입니다. Zoom Level의 상위 디렉터리까지 지정합니다.
  * 다음과 같은 구조를 가집니다.
+
     ./TileDir
-        - [Provider]
-            - [Zoom Level]
-                - [X]
-                    - [Y.jpg]
+        (Provider)
+            (Zoom Level)
+                (X)
+                    (Y.jpg)
+            ...
+            ...
 
 * Provider : Map Provider. ex) Mapnik
 * Archive Name : 생성될 archive 파일명.
 
 ## 예시
 다음과 같이 Tile 이미지가 저장된 경우 Tile Dir는 `./KorPeninsula/Mapnik` 입니다.
+
     ./KorPeninsula
         - Mapnik
             - 0
@@ -39,6 +43,7 @@ Python 버전 : 3
             ...
 
 명령:
+
     python arc.py ./KorPeninsula/Mapnik Mapnik KorPeninsula.sqlite
 
 # 참조
