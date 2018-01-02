@@ -49,10 +49,13 @@ Python 버전 : 3
 
 # 참조
 * Osmdroid의 Offline Map Tiles에 대한 설명은 다음 문서를 참조하십시오.
- - https://github.com/osmdroid/osmdroid/wiki/Offline-Map-Tiles
+
+https://github.com/osmdroid/osmdroid/wiki/Offline-Map-Tiles
 
 * SQLite3 형식 Archive의 구조는 `org.osmdroid.tileprovider.modules.DatabaseFileArchive` 클래스의 코드를 참조하십시오.
- - https://github.com/osmdroid/osmdroid/blob/master/osmdroid-android/src/main/java/org/osmdroid/tileprovider/modules/DatabaseFileArchive.java
+
+https://github.com/osmdroid/osmdroid/blob/master/osmdroid-android/src/main/java/org/osmdroid/tileprovider/modules/DatabaseFileArchive.java
 
 * Osmdroid에서 사용되는 Tile System에 대한 설명은 Microsoft Bing Map의 Tile System 설명을 참조하십시오.
- - https://msdn.microsoft.com/ko-kr/library/bb259689.aspx
+
+https://msdn.microsoft.com/ko-kr/library/bb259689.aspx
